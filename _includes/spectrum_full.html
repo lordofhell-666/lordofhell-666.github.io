@@ -1,0 +1,22 @@
+    <!-- sw services wrapper start -->
+    <div class="sw_iner_service_wrapper sw_iner_service_wrapper_2">
+        <div class="container">
+            <div class="row">
+            {% for spec in site.data.spectrum %}    
+                <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                    <div class="gb_icon_wrapper">
+                        <div class="gb_icon_img">
+                            <img src="images/{{spec.image}}" alt="title">
+                        </div>
+                        <div class="gb_icon_content">
+                            <h4><a href="#">{{spec.title}} <br></a></h4>
+
+                        </div>
+                        <p>{{spec.description}}</p>
+                    </div>
+                </div>
+            {% endfor %}    
+            </div>
+        </div>
+    </div>
+    <!-- sw services wrapper end -->

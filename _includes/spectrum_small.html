@@ -12,46 +12,16 @@
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
                     <div class="spectrum_slider_wrapper">
                             <div class="owl-carousel owl-theme">
+                            {% for spec in site.data.spectrum%}
                                 <div class="item">
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
-                                            <img src="images/spec_1.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">solar system</a></h2>
+                                            <img src="images/{{spec.image}}" alt="title" class="img-responsive">
+                                            <h2><a href="#">{{spec.title}}</a></h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="spectrum_slider_cntnt">
-                                        <div class="spectrum_slider_shadow">
-                                            <img src="images/spec_2.png" alt="title">
-                                            <h2><a href="#">solar pv systems</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="spectrum_slider_cntnt">
-                                        <div class="spectrum_slider_shadow">
-                                            <img src="images/spec_3.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Wind Generators</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="spectrum_slider_cntnt">
-                                        <div class="spectrum_slider_shadow">
-                                            <img src="images/spec_4.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Alternative Energy</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="spectrum_slider_cntnt">
-                                        <div class="spectrum_slider_shadow">
-                                            <img src="images/spec_2.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Wind Generators</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
+                            {% endfor %}
                             </div>
                         </div>
                 </div>
