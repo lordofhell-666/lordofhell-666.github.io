@@ -4,7 +4,7 @@ title: About
 description: Welcome to About page of Energymitra
 
 ---
-
+{% assign comp=site.data.company %}
     <!--sw about us top start-->
     <div class="sw_abt_btm_wrapper">
         <div class="container">
@@ -19,10 +19,10 @@ description: Welcome to About page of Energymitra
                     <div class="sw_left_heading_wraper sw_abt_tp_txt">
                         <h1>Want to Know About Us?</h1>
                         <img src="{{ '' | absolute_url }}/images/heading_line.png" alt="title">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis rud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis ate irure dolor in reprehenderit in luptate velit esse cillum dolore eu fugiat nulla atur. Excepteur sint caecat cupidatat non laboris nisi ut aliquip ex ea commodo cons fugiat nulla atur. Excepteur sint caecat cupidatat non proiden. Ut enim ad minim veniam, quirud exercitation ullam proiden. Ut enim ad minim veniam, quirud exercitation ullamco laboris nisi ut aliquip ex.
+                        <p>{{comp.about_us_1 }}
                         </p>
                         <br>
-                        <p>ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis rud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons fugiat nulla atur. Excepteur sint caecat cupidatat non proiden. Ut enim ad minim veniam, quirud exercitation ullam</p>
+                        <p>{{comp.about_us_2 }}</p>
                     </div>
                 </div>
             </div>
@@ -121,12 +121,12 @@ description: Welcome to About page of Energymitra
                         <div class="sw_left_heading_wraper">
                             <h1>Our Mission</h1>
                             <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
-                            <p>Consectetur adipisicing elit, sed do smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            <p>{{comp.mission}}</p>
                         </div>
                         <div class="sw_left_heading_wraper">
                             <h1>Our vision</h1>
                             <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
-                            <p>Consectetur adipisicing elit, sed do smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            <p>{{comp.vision}}</p>
                         </div>
                     </div>
                 </div>
@@ -148,12 +148,13 @@ description: Welcome to About page of Energymitra
                 <!-- slider start -->
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
                     <div class="best_product_slider_wrapper">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme">    
+                            {% for pro in comp.team%}
                             <div class="item">
                                 <div class="sw_product_box_wrapper">
                                     <div class="sw_product_indx_img_wrapper">
                                         <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/abt_pdt_1.png" alt="shop_img" class="img-responsive" />
+                                        <img src="{{ '' | relative_url }}/images/{{pro.image}}" alt="shop_img" class="img-responsive" />
                                         <div class="abt_img_btn_wrapper">
                                             <ul>
                                                 <li><a href="#"><i class="fa fa-facebook"></i></a>
@@ -172,128 +173,13 @@ description: Welcome to About page of Energymitra
 
                                     <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2 sw_prdct_11">
 
-                                        <h1><a href="#">akshay H.</a></h1>
-                                        <h5>(project manager)</h5>
+                                        <h1><a href="#">{{pro.name}}</a></h1>
+                                        <h5>{{pro.designation }}</h5>
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-                                        <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/abt_pdt_2.png" alt="shop_img" class="img-responsive" />
-                                        <div class="abt_img_btn_wrapper">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                </li>
-                                            </ul>
-                                            <ul class="sw_abt_icon_top_wrapper">
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2 sw_prdct_11">
-
-                                        <h1><a href="#"> farhan S.</a></h1>
-                                        <h5>(site engineer)</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-                                        <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/abt_pdt_3.png" alt="shop_img" class="img-responsive" />
-                                        <div class="abt_img_btn_wrapper">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                </li>
-                                            </ul>
-                                            <ul class="sw_abt_icon_top_wrapper">
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2 sw_prdct_11">
-
-                                        <h1><a href="#">ajay S.</a></h1>
-                                        <h5>(site manager)</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-                                        <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/abt_pdt_4.png" alt="shop_img" class="img-responsive" />
-                                        <div class="abt_img_btn_wrapper">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                </li>
-                                            </ul>
-                                            <ul class="sw_abt_icon_top_wrapper">
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2 sw_prdct_11">
-
-                                        <h1><a href="#">manali H.</a></h1>
-                                        <h5>(site supervisor)</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-                                        <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/abt_pdt_2.png" alt="shop_img" class="img-responsive" />
-                                        <div class="abt_img_btn_wrapper">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                </li>
-                                            </ul>
-                                            <ul class="sw_abt_icon_top_wrapper">
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2 sw_prdct_11">
-
-                                        <h1><a href="#">mack K.</a></h1>
-                                        <h5>(environmentalist)</h5>
-
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>

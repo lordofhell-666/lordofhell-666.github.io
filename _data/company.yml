@@ -1,0 +1,106 @@
+
+nav_icon: 
+about_us_1: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+about_us_2: ncididunt ut labore et dolore magna aliqua. Ut enim ad 
+mission: Hey man this is lorem ipsum.
+vision: Consectetur adipisicing elit, sed do smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit.
+
+why_us:
+  about: hey this is why us section.
+  image1: disc_lft_bg.jpg
+  image2: disc_lft.jpg
+  catg:
+    - title: olar Panels Servic
+      description: halwal
+      image: flaticon-power
+    
+    - title: Discover the Advantages
+      description: onec quis magna sit amet risus vulput
+      image: flaticon-sun
+
+    - title: Best Wind Energy
+      description: onec quis magna sit amet risus vulput
+      image: flaticon-wind-turbine
+
+    
+team:
+  - name: akshay H.
+    designation: (project manager)
+    image: abt_pdt_1.png
+
+  - name:
+    designation:
+    image:
+
+  - name:
+    designation:
+    image:
+
+  - name:
+    designation:
+    image:
+
+  - name:
+    designation:
+    image:
+
+contact:
+    number: 7587323940
+    email: sunwind@example.com
+    website: www.example.com
+    address: Timposn, Suite 247 USA, 222
+    logo: hd_logo.png
+
+social:
+    facebook: www.facebook.com
+    twitter:
+    linkedin:
+    instagram:
+
+
+solar_energy:
+  about: hey this is about.
+  catg1:
+
+    - name: Long Time to Use
+      about: Hey this is about solar energy
+      image: ser_img_1.png
+
+    - name: Alaways Clean Energy
+      about: Hey this is about solar energy
+      image: ser_img_2.png
+
+    - name: Energy Can Be Reused
+      about: Hey this is about solar energy
+      image: ser_img_6.png
+
+  catg2:
+
+    - name: Used for Many Purposes
+      about:
+      image: ser_img_3.png
+
+    - name: Low Installation Costs
+      about:
+      image: ser_img_4.png
+
+    - name: Easy Installation
+      about:
+      image: ser_img_5.png
+
+offers:
+  - title: Innovative Solotion for solar Energy Saurabh
+    bg_image: slider_bg_1.jpg
+    slno: 2938
+    link:
+
+  - title: This is puri sabji
+    bg_image: slider_bg_2.jpg
+    slno: 2939
+    link:
+
+  - title: this is halwa puri 
+    bg_image: slider_bg.jpg   
+    slno: 2940
+    link:
+

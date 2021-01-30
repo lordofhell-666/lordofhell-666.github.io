@@ -8,6 +8,3 @@ social_links:
 collections:
   shop:
     output: true
-
-  spectrum:
-    output: true
