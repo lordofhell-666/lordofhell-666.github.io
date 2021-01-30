@@ -1,0 +1,20 @@
+docs_list_title: navbar 
+docs:
+
+- title: Home
+  url: /
+ 
+- title: about
+  url: about_us
+
+- title: Service
+  url: services  
+
+- title: Projects
+  url: projects  
+
+- title: Shop
+  url: shop
+
+- title: Contact_us
+  url: contact_us    

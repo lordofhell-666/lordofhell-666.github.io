@@ -1,0 +1,13 @@
+baserurl: /jekyll
+permalink: pretty
+
+social_links:
+  facebook: www.facebook.com/
+  
+
+collections:
+  shop:
+    output: true
+
+  spectrum:
+    output: true

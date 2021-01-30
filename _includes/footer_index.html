@@ -16,8 +16,9 @@
                             </div>
                             <div class="abotus_content">
                                 <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
+                                
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="{{site.social_links.facebook}}"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -33,15 +34,9 @@
                             <h4>useful links </h4>
                             <img src="images/hd_line_dark.png" alt="title" class="pd_btm_3">
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>events </a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>contact </a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>history</a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li>
+                                {% for nav in site.data.nav.docs %}
+                                <li><a href="{{ nav.url | absolute_url}}" title="">{{ nav.title }}</a></li>
+                                {% endfor %}
                             </ul>
 
                         </div>
