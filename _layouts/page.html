@@ -19,9 +19,9 @@ Author:   Webstrot
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
-    <title>About Us</title>
+    <title>{{page.title}}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="smart pest" />
+    <meta name="description" content="{{page.description}}" />
     <meta name="keywords" content="solar system /sun & wind" />
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320" />
@@ -49,8 +49,8 @@ Author:   Webstrot
 
                         <div class="sub_title_section">
                             <ul class="sub_title">
-                                <li><a href="#"> Home </a></li>
-                                <li> about us</li>
+                                <li><a href="/"> Home </a></li>
+                                <li>{{page.title}}</li>
                             </ul>
                         </div>
                     </div>
@@ -67,15 +67,15 @@ Author:   Webstrot
                     <div class="sw_abot_top_txt_wrapper">
 
                         <div class="sw_left_heading_wraper sw_dark_heading_wraper">
-                            <h1>Our Company Overview</h1>
-                            <img src="images/hd_line_dark.png" alt="title">
-                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimnim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                            <h1>Our {{page.title}}</h1>
+                            <img src="{{ '' | absolute_url }}/images/hd_line_dark.png" alt="title">
+                            <p>{{page.description}}</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="sw_about_top_img">
-                        <img src="images/iner_abt.png" alt="img">
+                        <img src="{{ '' | absolute_url }}/images/iner_abt.png" alt="img">
 
                     </div>
                 </div>

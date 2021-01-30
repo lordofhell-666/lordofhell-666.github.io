@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Shop 
+description: Energymitra offers various various products 
 ---
 
     <!-- blog_section start -->
@@ -23,10 +25,10 @@ layout: page
 
                                                     <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
                                                         <div class="sw_pdct_img">
-                                                            <img src="images/line.png" alt="img" />
+                                                            <img src="{{ '' | absolute_url }}/images/line.png" alt="img" />
                                                         </div>
                                                         <h5>$  {{post.price}}</h5>
-                                                        <h1><a href="{{ post.url | relative_url }}">{{post.title}}</a></h1>
+                                                        <h1><a href="{{ post.url | absolute_url }}">{{post.title}}</a></h1>
 
                                                         <div class="cc_li_cont_wrapper">
                                                             <i class="fa fa-star"></i>
