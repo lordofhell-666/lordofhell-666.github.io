@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Contact Us  
-description: Contact energymitra  
+description: Fell free to contact us 
+image: iner_contactt.png 
 ---
     <!-- Google Map start-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css.map">
@@ -56,17 +57,17 @@ description: Contact energymitra
                                 <div class="sw_left_heading_wraper sw_dark_heading_wraper ppp">
                                     <h1>contact info</h1>
                                     <img src="{{ '' | absolute_url }}/images/hd_line_dark.png" alt="title">
-                                    <p>Donec quis amet risus vulputate maximus eget eget arcu.</p>
+                                    <p></p>
                                 </div>
                                <ul>
 									<li>
-                                     <h1>+800 568 322</h1></li>
-									 <li><a href="#"><i class="flaticon-new-email-outline"></i>sunwind@example.com</a>
+                                     <h1>{{ site.data.company.contact.number }}</h1></li>
+									 <li><a href="#"><i class="flaticon-new-email-outline"></i>{{ site.data.company.contact.email }}</a>
                                     </li>
-									 <li><a href="#"><i class="flaticon-internet"></i>www.example.com</a>
+									 <li><a href="#"><i class="flaticon-internet"></i>{{ site.data.company.contact.website }}</a>
                                     </li>
                                   
-                                    <li><i class="flaticon-placeholder"></i>Timposn, Suite 247 USA, 222
+                                    <li><i class="flaticon-placeholder"></i>{{ site.data.company.contact.address }}
                                                                     
                                 </ul>
                             </div>

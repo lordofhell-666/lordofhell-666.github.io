@@ -3,13 +3,13 @@ layout: shop_single
 title: Emitra 9W Emergency bulb
 category: Luminaries
 price: 480
-image: iv.jpg
-about: hey this is fucking awsum
+image: Emitra_bulb.jpg
+about: Power backup - During power cuts, Energymitra Inverter bulb will provide light up to 4 hours continuously, therefore being a perfect power backup for your home. Fast-charging-With the automatic charging feature, Energymitra Inverter bulb will get automatically charged when it is kept ON, with the charging time of 8-10 hours
 sku: EMTIV9W
 download: www.google.com
-description: hey this is fucking description 
-feature_1: hey this feature 1
-feature_2: hey this feature 2
-feature_3: hey this feature 3 
+description: Wattage -9-watt Inverter bulb , Battery Capacity -2200 mAh ,Power Requirements --220-240 50 Hz Warranty -1 year on Bulb only | Not on batteries
+feature_1: (Color temperature- 6500k)
+feature_2: With the automatic charging feature, Philips Inverter bulb will get automatically charged when it is kept ON,
+feature_3: It has a powerful Lithium-ion battery, with a long life
 ---
 

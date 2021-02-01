@@ -1,40 +1,40 @@
 
 nav_icon: 
-about_us_1: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-about_us_2: ncididunt ut labore et dolore magna aliqua. Ut enim ad 
-mission: Hey man this is lorem ipsum.
-vision: Consectetur adipisicing elit, sed do smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit.
+about_us_1: Energymitra is focused on creating a high tech platform which houses high grade solar products, roof top projects and LED products. Being backed by extensive research, core domain expertise & IT enabled platform, this brand has the ability to deliver tailor-made solar solutions to everyone in India. 
+about_us_2: Energymitra is one of the renowned manufacturers and suppliers of the best quality LED Inverter bulbs.The company is located in Prayagraj(Uttar Pradesh, India). Mr. Saurabh Tripathy (Founder) is the brilliant mind behind the establishment of our organization. He laid the foundation stone in the year 2020.
+mission:  Is to develop such tools, products & services for delivering 'POWER of SUN to every Citizen.
+vision: Our vision is a clean energy running world.
 
 why_us:
-  about: hey this is why us section.
+  about: Here are a few reasons that Energymitra is the best option for installing solar panel systems in either the home or workplace.
   image1: disc_lft_bg.jpg
   image2: disc_lft.jpg
   catg:
-    - title: olar Panels Servic
-      description: halwal
+    - title: Sustainability
+      description: We deliver solutions which are economically advantageous and up to the highest expectations of our customers and partners.
       image: flaticon-power
     
-    - title: Discover the Advantages
-      description: onec quis magna sit amet risus vulput
+    - title: Responsibility
+      description: We are responsible toward our natural environment.
       image: flaticon-sun
 
-    - title: Best Wind Energy
-      description: onec quis magna sit amet risus vulput
+    - title: Commitment
+      description: We commit to bring the best environmentally friendly technologies and to keep developing renewable energy solutions.
       image: flaticon-wind-turbine
 
     
 team:
-  - name: akshay H.
-    designation: (project manager)
-    image: abt_pdt_1.png
+  - name: Saurabh Tripathy
+    designation: Entreprenuer | Director | CTO
+    image: Saurabh_tripathy.jpg
 
-  - name:
-    designation:
-    image:
+  - name: Ashish Kumar Singh    
+    designation: Entreprenuer | Director | CMO
+    image: ashish.jpg
 
-  - name:
-    designation:
-    image:
+  - name: Harish Pandiyari
+    designation: Operation Head
+    image: random.png
 
   - name:
     designation:
@@ -45,10 +45,10 @@ team:
     image:
 
 contact:
-    number: 7587323940
-    email: sunwind@example.com
-    website: www.example.com
-    address: Timposn, Suite 247 USA, 222
+    number: 8595093108
+    email: info@energymitra.co.in 
+    website: www.energymitra.co.in
+    address: Naika-jhusi, Phoolpur ,Prayagraj , UP
     logo: hd_logo.png
 
 social:
@@ -59,43 +59,43 @@ social:
 
 
 solar_energy:
-  about: hey this is about.
+  about: <strong>It's really kind of cool to have solar panels on your roof.</strong>    
   catg1:
 
-    - name: Long Time to Use
-      about: Hey this is about solar energy
+    - name: Limited Maintainance 
+      about: While a solar array does require some maintenance and cleaning to operate at full efficiency, there is virtually no day-to-day maintenance.
       image: ser_img_1.png
 
-    - name: Alaways Clean Energy
-      about: Hey this is about solar energy
+    - name: Good for the Environment
+      about: Solar power is a great way to reduce your carbon footprint
       image: ser_img_2.png
 
-    - name: Energy Can Be Reused
-      about: Hey this is about solar energy
+    - name: Solar electricity boosts your electricity independence! 
+      about: Solar Electricity Makes Your Home Go Off-the-Grid
       image: ser_img_6.png
 
   catg2:
 
-    - name: Used for Many Purposes
-      about:
+    - name:  Save on Utility Bills 
+      about: As more solar energy is produced by a system, there is less dependence needed from a utility company.
       image: ser_img_3.png
 
-    - name: Low Installation Costs
-      about:
+    - name: Increase Home Value
+      about: Having solar arrays on your home can help increase its value.
       image: ser_img_4.png
 
-    - name: Easy Installation
-      about:
+    - name: Solar Power Is A Free Source of Energy
+      about: The sun provides us with more energy than we could ever use, and no one can monopolise the sunlight. 
       image: ser_img_5.png
 
 offers:
-  - title: Innovative Solotion for solar Energy Saurabh
+  - title: Pioneers in the industry <br> we offer best <br> Home lighting system 
     bg_image: slider_bg_1.jpg
     slno: 2938
     link:
 
-  - title: This is puri sabji
-    bg_image: slider_bg_2.jpg
+  - title: Top Quality <br>Inverter Bulbs 
+    bg_image: slider_bg_2.jpeg
     slno: 2939
     link:
 

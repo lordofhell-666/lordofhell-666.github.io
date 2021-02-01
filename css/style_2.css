@@ -1,9 +1,9 @@
 /***************-----------------------***********************
 [Master Stylesheet]
 
-Project:  Typhoon - Solar Energy HTML Template
+Project:  Energymitra
 Version:  1.0.0
-Author:   Webstrot
+Author:   Saurabh Tripathy
 -----------------********************-------------------
 [Table Of Contents]
 
@@ -36,7 +36,7 @@ html {
     line-height: 26px;
     font-weight: 400;
     font-size: 16px;
-    color: #6b84ad;
+    color: #e3270e;
 	overflow-x:hidden;
 	background:#fff !important;
 }
@@ -44,12 +44,12 @@ html {
 
 /*------------------custom css----------------*/
 a {
-    color: #1d3571;
+    color: #e3270e;
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #1d3571;
+    color:  #e3270e;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ h6,
 .h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: #1d3571;
+    color:  #e3270e;
     line-height: 26px;
     font-weight: 400;
     margin: 0;
@@ -237,7 +237,7 @@ textarea:focus {
     right: 0;
     top: 0;
 	height:97px;
-	color:#1d3571 !important;
+	color: #e3270e !important;
 }
 .header-area.stick .mainmenu ul li a,
 .stick .mean-container a.meanmenu-reveal {

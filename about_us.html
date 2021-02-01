@@ -37,99 +37,7 @@ description: Welcome to About page of Energymitra
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="sw_disc_txt_wrapper">
-
-                        <div class="sw_left_heading_wraper">
-                            <h1>All Roads Lead to Solar!</h1>
-                            <img src="{{ '' | absolute_url }}/images/heading_line.png" alt="title">
-                            <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
-                        </div>
-
-                        <div class="sw_leads_accordian">
-                            <div class="panel-group" id="accordionFifteenLeft" role="tablist">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading desktop">
-                                        <h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="true">The Cost Benefit Ratio: </a>
-										</h4>
-                                    </div>
-                                    <div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
-                                        <div class="panel-body">
-
-                                            <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.panel-default -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading horn">
-                                        <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">Why Solar Energy ?</a>
-										</h4>
-                                    </div>
-                                    <div id="collapseFifteenLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
-                                        <div class="panel-body">
-
-                                            <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.panel-default -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading bell">
-                                        <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">Advantage Of  Solar</a>
-										</h4>
-                                    </div>
-                                    <div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
-                                        <div class="panel-body">
-
-                                            <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading bell">
-                                        <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">Solar System Benefits?</a>
-										</h4>
-                                    </div>
-                                    <div id="collapseFifteenLeftFour" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
-                                        <div class="panel-body">
-
-                                            <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="sw_abt_right_btm_wrapper">
-
-                        <div class="sw_left_heading_wraper">
-                            <h1>Our Mission</h1>
-                            <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
-                            <p>{{comp.mission}}</p>
-                        </div>
-                        <div class="sw_left_heading_wraper">
-                            <h1>Our vision</h1>
-                            <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
-                            <p>{{comp.vision}}</p>
-                        </div>
-                    </div>
-                </div>
+                {% include why_emitra.html %}
             </div>
         </div>
     </div>
@@ -141,7 +49,7 @@ description: Welcome to About page of Energymitra
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="sw_left_heading_wraper">
                         <h1>Our Expert Team</h1>
-                        <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
+                        <img src="{{ '' | absolute_url }}/images/heading_line.png" alt="title">
                     </div>
                 </div>
 
@@ -154,7 +62,7 @@ description: Welcome to About page of Energymitra
                                 <div class="sw_product_box_wrapper">
                                     <div class="sw_product_indx_img_wrapper">
                                         <div class="sp_img_box_overlay"></div>
-                                        <img src="{{ '' | relative_url }}/images/{{pro.image}}" alt="shop_img" class="img-responsive" />
+                                        <img src="{{ '' | absolute_url }}/images/{{pro.image}}" alt="shop_img" class="img-responsive" />
                                         <div class="abt_img_btn_wrapper">
                                             <ul>
                                                 <li><a href="#"><i class="fa fa-facebook"></i></a>

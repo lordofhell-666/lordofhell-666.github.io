@@ -1,0 +1,50 @@
+{% assign comp1=site.data.company.why_us %}
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="sw_disc_txt_wrapper">
+
+                    <div class="sw_left_heading_wraper">
+                        <h1>All Roads Lead to Solar!</h1>
+                        <img src="{{ '' | absolute_url }}/images/heading_line.png" alt="title">
+                        <p>{{comp1.about}}</p>
+                    </div>
+
+                    <div class="sw_leads_accordian">
+                        <div class="panel-group" id="accordionFifteenLeft" role="tablist">
+                            {% for comp1 in comp1.catg %}
+                            <div class="panel panel-default">
+                                <div class="panel-heading desktop">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="true">{{comp1.title}} </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
+                                    <div class="panel-body">
+
+                                        <div class="panel_cont">
+                                            <p>{{comp1.description}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="sw_abt_right_btm_wrapper">
+
+                    <div class="sw_left_heading_wraper">
+                        <h1>Our Mission</h1>
+                        <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
+                        <p>{{comp.mission}}</p>
+                    </div>
+                    <div class="sw_left_heading_wraper">
+                        <h1>Our vision</h1>
+                        <img src="{{ '' | relative_url }}/images/heading_line.png" alt="title">
+                        <p>{{comp.vision}}</p>
+                    </div>
+                </div>
+            </div>            
+ 
