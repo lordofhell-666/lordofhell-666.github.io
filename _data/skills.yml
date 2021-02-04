@@ -1,12 +1,16 @@
 # Skills
+
+- skill: Technical skills
+  description:  Technically strong in <strong>Solar</strong>,<strong>LED</strong> and <strong>Web</strong> technology.
+
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Branding, marketing and networking skills
+  description: Being able to implement successful branding and marketing strategies 
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Communication and listening
+  description: effective and clear messages through emails and other advertising methods. 
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Web Development & Analytics 
+  description: Coding makes my brain sharp . Django,Api,Jekyll

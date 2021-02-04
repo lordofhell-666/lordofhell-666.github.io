@@ -2,14 +2,14 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
+- project: Product development 
+  role: Primary Developer
   duration: 2012 &mdash; Present
-  # url: "#"
+  url: "energymitra.co.in"
   description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
+- project: Created a server less Dynamic Website
   role: Co-Founder & Organizer
   duration: 2007 &mdash; Present
   # url: "#"

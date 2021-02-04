@@ -20,7 +20,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         
-        <img src="{{ '' | absolute_url }}/images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="{{ '' | absolute_url }}/images/Saurabh_tripathy.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         
 
         <!-- Your name is defined in the _config.yml file -->
@@ -68,6 +68,8 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <h5 class="resume-item-details">{{ job.location }}</h5>
+          <!-- <h6 class="resume-item-details">{{ job.website }}</h6> -->
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
