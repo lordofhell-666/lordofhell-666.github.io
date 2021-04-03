@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Saurabh Tripathy Resume"
+description: "A resume for Saurabh Tripathy built on github pages."
 
 
 resume_avatar:                  "true"
@@ -8,14 +8,14 @@ resume_name:                    "Saurabh Tripathy"
 resume_title:                   "Entreprenuer | Solar Enthusiast "
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "saurabhtripathy6@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "7587323940"
+resume_contact_address:         "C-82 ShreejiMadhuban Colony , Amlidih, Raipur"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "C-82 ShreejiMadhuban Colony , Amlidih, Raipur• 7587323940 • saurabhtripathy6@gmail.com"
+display_header_contact_info:    "True"
 
 resume_header_intro: "<p>Experienced Entrepreneur with a demonstrated history of working in the renewables and environment industry. Skilled in Engineering, Strategic Planning, Management, Leadership, Project Planning & Product Development. </p>"
 
@@ -24,7 +24,7 @@ resume_looking_for_work:        "yes"
 
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
+  resume_github_url:            "https://github.com/lordofhell-666"
   resume_twitter_url:           "http://twitter.com/jglovier"
   resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
